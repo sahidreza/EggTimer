@@ -48,13 +48,16 @@
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hard_egg" translatesAutoresizingMaskIntoConstraints="NO" id="uo0-Ex-GYj">
                                                                 <rect key="frame" x="0.0" y="0.0" width="140" height="305.33333333333331"/>
                                                             </imageView>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1q-QS-oWN">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1q-QS-oWN" userLabel="Hard">
                                                                 <rect key="frame" x="0.0" y="0.0" width="140" height="305.33333333333331"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="HARD">
                                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
                                                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="pressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z4P-J3-p5h"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -81,6 +84,9 @@
                                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
                                                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="pressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hL5-tl-kLn"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -107,6 +113,9 @@
                                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
                                                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="pressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z8q-2j-xdQ"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -160,10 +169,14 @@
                             <constraint firstAttribute="bottom" secondItem="Kbd-sJ-4Uq" secondAttribute="bottom" id="sy6-6t-YtR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="eggTimerLabel" destination="o9z-8e-lnq" id="DaX-N3-tET"/>
+                        <outlet property="progressView" destination="D2c-NJ-AcA" id="ASI-5f-tDb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58.604651162790695" y="-34.763948497854081"/>
+            <point key="canvasLocation" x="426" y="-41"/>
         </scene>
     </scenes>
     <resources>

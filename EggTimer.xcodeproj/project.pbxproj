@@ -13,6 +13,7 @@
 		D1A946882939F08300C2519E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A946862939F08300C2519E /* Main.storyboard */; };
 		D1A9468A2939F08700C2519E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A946892939F08700C2519E /* Assets.xcassets */; };
 		D1A9468D2939F08700C2519E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A9468B2939F08700C2519E /* LaunchScreen.storyboard */; };
+		D1A94695293A1D5800C2519E /* on_time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1A94694293A1D5700C2519E /* on_time.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D1A946892939F08700C2519E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1A9468C2939F08700C2519E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1A9468E2939F08700C2519E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1A94694293A1D5700C2519E /* on_time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = on_time.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				D1A946822939F08300C2519E /* SceneDelegate.swift */,
 				D1A946842939F08300C2519E /* ViewController.swift */,
 				D1A946862939F08300C2519E /* Main.storyboard */,
+				D1A94694293A1D5700C2519E /* on_time.mp3 */,
 				D1A946892939F08700C2519E /* Assets.xcassets */,
 				D1A9468B2939F08700C2519E /* LaunchScreen.storyboard */,
 				D1A9468E2939F08700C2519E /* Info.plist */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A94695293A1D5800C2519E /* on_time.mp3 in Resources */,
 				D1A9468D2939F08700C2519E /* LaunchScreen.storyboard in Resources */,
 				D1A9468A2939F08700C2519E /* Assets.xcassets in Resources */,
 				D1A946882939F08300C2519E /* Main.storyboard in Resources */,
