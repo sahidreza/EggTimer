@@ -23,7 +23,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("UI COmpleted")
+        
+        eggTimerLabel.textColor = UIColor.white
+        
         // Do any additional setup after loading the view.
     }
     
